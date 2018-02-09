@@ -15,8 +15,8 @@ Shorty allows the creation and deletion of app shortcuts in Android.
     
 ## Properties
 
-- Shorty.create
-- Shorty.delete
+- Shorty.add
+- Shorty.remove
 
 ### Example
 
