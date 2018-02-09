@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-shortcut",
+  "version": "1.0.0",
+  "description": "Cordova plugin for creating an app shortcut on Android",
+  "cordova": {
+    "id": "cordova-plugin-netto",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvanWieland/cordova-plugin-shortcut"
+  },
+  "keywords": [
+    "cordova",
+    "shortcut",
+    "cordova-android"
+  ],
+  "scripts": {
+    "test": "echo 0"
+  },
+  "author": "Evan Wieland",
+  "homepage": "https://bitsmithy.io",
+  "license": "MIT",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ]
+}
