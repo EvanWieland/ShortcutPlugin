@@ -79,4 +79,4 @@ Shorty.prototype.remove = function (shortcutText, successCallback, errorCallback
     );
 };
 
-module.exports = new Netto();
+module.exports = new Shorty();
