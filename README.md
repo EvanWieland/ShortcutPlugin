@@ -1,4 +1,4 @@
-# 💭 Cordova Shorty Plugin
+# 🦐 Cordova Shorty Plugin
 Cordova plugin for adding and deleting app shortcuts in Android.
 
 ## Purpose
