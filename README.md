@@ -21,7 +21,7 @@ Shorty allows the creation and deletion of app shortcuts in Android.
 ### Example
 
 ```js
-Shorty.create(
+Shorty.add(
     'My App',
     function(){
     	// Do something...
@@ -31,7 +31,7 @@ Shorty.create(
     }
 );
 
-Shorty.delete(
+Shorty.remove(
     'My App',
     function(){
     	// Do something...
