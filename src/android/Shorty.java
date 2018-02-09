@@ -1,21 +1,21 @@
-//Copyright 2013 Jorge Cisneros jorgecis@gmail.com
+package io.bistmithy.netto;
 
-package com.plugins.shortcut;
-
-import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
-import org.json.JSONObject;
+import org.apache.cordova.CallbackContext;
+
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
+
+import android.os.Parcelable; 
 import android.content.Intent;
 import android.content.Context;
-import android.os.Parcelable; 
 import android.content.pm.ResolveInfo;
 import android.content.pm.PackageManager;
 
-public class ShortcutPlugin extends CordovaPlugin {
-    public static final String ACTION_ADD_SHORTCUT = "addShortcut"; 
-    public static final String ACTION_DEL_SHORTCUT = "delShortcut"; 
+public class Shorty extends CordovaPlugin {
+    public static final String ACTION_ADD_SHORTCUT = "add"; 
+    public static final String ACTION_DEL_SHORTCUT = "remove"; 
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
